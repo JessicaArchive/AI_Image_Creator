@@ -9,7 +9,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const openaiApiKey = test
+const openaiApiKey = tests
+
 
 app.post('/generate-image', async (req, res) => {
     const { prompt } = req.body;
